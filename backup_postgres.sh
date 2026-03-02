@@ -12,7 +12,7 @@ BACKUP_DIR="/var/backups/postgres"
 LOG_FILE="/var/log/postgres_backup.log"
 
 REMOTE_USER="backupuser"
-REMOTE_HOST="192.168.1.5"
+REMOTE_HOST="192.168.1.214"
 REMOTE_DIR="/home/backupuser/postgres_backups"
 
 DATE=$(date +"%Y-%m-%d_%H-%M-%S")
