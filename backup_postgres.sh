@@ -4,15 +4,15 @@
 # CONFIGURACIÓN
 # ==========================
 
-CONTAINER_NAME="postgres_db"          # Nombre del contenedor Docker
+CONTAINER_NAME="mysql_db"          # Nombre del contenedor Docker
 DB_USER="usuario"
-DB_NAME="basedatos"
+DB_NAME="caremind_db"
 
 BACKUP_DIR="/var/backups/postgres"
 LOG_FILE="/var/log/postgres_backup.log"
 
 REMOTE_USER="backupuser"
-REMOTE_HOST="192.168.1.214"
+REMOTE_HOST="192.168.x.x"
 REMOTE_DIR="/home/backupuser/postgres_backups"
 
 DATE=$(date +"%Y-%m-%d_%H-%M-%S")
